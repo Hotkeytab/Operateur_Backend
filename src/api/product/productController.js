@@ -1,7 +1,6 @@
-import { returnStatus } from "../../utils/ReturnStatus"
-import { formatImage } from "../../utils/upload"
-
-import { createProduct, findProducts } from "./productServices"
+const { returnStatus } =  require("../../utils/ReturnStatus");
+const { formatImage } =  require("../../utils/upload");
+const { createProduct, findProducts } =  require("./productServices");
 
 
 

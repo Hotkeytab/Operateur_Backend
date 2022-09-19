@@ -1,6 +1,5 @@
-import { Permission } from '../../config/index'
-import { Role } from '../../config/index'
-
+const { Permission } =  require('../../config/index');
+const { Role } =  require('../../config/index');
 /**
  * 
  * @returns permission list

@@ -1,8 +1,8 @@
-import { returnStatus } from "../../utils/ReturnStatus"
-import { formatImage } from "../../utils/upload"
-import { createOrderDetail } from "../orderDetail/orderDetailServices"
-import { createOrderPicture } from "../orderPicture/orderPictureServices"
-import { createOrder, findOrders } from "./orderServices"
+const { returnStatus } =  require("../../utils/ReturnStatus");
+const { formatImage } =  require("../../utils/upload");
+const { createOrderDetail } =  require("../orderDetail/orderDetailServices");
+const { createOrderPicture } =  require("../orderPicture/orderPictureServices");
+const { createOrder, findOrders } =  require("./orderServices");
 
 /**
  * @description get order list

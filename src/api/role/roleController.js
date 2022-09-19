@@ -1,5 +1,5 @@
-import { returnStatus } from "../../utils/ReturnStatus"
-import { createRole, findRoles } from "./roleServices"
+const { returnStatus } =  require("../../utils/ReturnStatus");
+const { createRole, findRoles } =  require("./roleServices");
 
 /**
  * @description get role list

@@ -1,7 +1,8 @@
-import express from 'express'
-import { upload } from '../../utils/upload'
-import { checkToken } from '../../utils/verifToken'
-import { getProducts, upsertProduct } from './productController'
+const express =  require('express');
+const { upload } =  require('../../utils/upload');
+const { checkToken } =  require('../../utils/verifToken');
+const { getProducts, upsertProduct } =  require('./productController');
+
 const router = express.Router()
 
 /**

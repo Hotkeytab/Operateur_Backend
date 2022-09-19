@@ -1,4 +1,4 @@
-import { Order, OrderDetail, OrderPicture, Store, User, Product } from '../../config/database'
+const { Order, OrderDetail, OrderPicture, Store, User, Product } =  require('../../config/database');
 
 /**
  * 

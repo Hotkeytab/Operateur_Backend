@@ -1,5 +1,6 @@
-import { returnStatus } from "../../utils/ReturnStatus"
-import { findPermissions, createPermission } from "./permissionServices"
+const { returnStatus } =  require("../../utils/ReturnStatus");
+const { findPermissions, createPermission } =  require("./permissionServices");
+
 
 /**
  * @description get permission list

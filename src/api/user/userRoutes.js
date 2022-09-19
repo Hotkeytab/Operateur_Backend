@@ -1,7 +1,8 @@
-import express from 'express'
-import { upload } from '../../utils/upload'
-import { checkToken } from '../../utils/verifToken'
-import { getUsers, upsertUser, getUserByUsername, switchStateUser, resetPassword, updatePassword, getUserByRole } from './userController'
+const express =  require('express');
+const { upload } =  require('../../utils/upload');
+const { checkToken } =  require('../../utils/verifToken');
+const { getUsers, upsertUser, getUserByUsername, switchStateUser, resetPassword, updatePassword, getUserByRole } =  require('./userController');
+
 const router = express.Router();
 
 /**

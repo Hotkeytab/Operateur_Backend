@@ -1,6 +1,7 @@
-import express from 'express'
-import { checkToken } from '../../utils/verifToken'
-import { getRoles, upsertRole } from './roleController'
+const express =  require('express');
+const { checkToken } =  require('../../utils/verifToken');
+const { getRoles, upsertRole } =  require('./roleController');
+
 const router = express.Router();
 
 /**

@@ -1,4 +1,4 @@
-import { User ,Permission, Role } from '../../config/index'
+const { User ,Permission, Role } =  require('../../config/index');
 
 /**
  * @returns enabled user list

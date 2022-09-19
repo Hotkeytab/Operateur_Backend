@@ -1,4 +1,4 @@
-import { Product } from '../../config/index'
+const { Product} =  require('../../config/index');
 
 
 /**

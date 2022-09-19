@@ -1,5 +1,5 @@
-import { Role } from '../../config/index'
-import { Permission } from '../../config/index'
+const { Role } =  require('../../config/index');
+const { Permission } =  require('../../config/index');
 
 /**
  * 

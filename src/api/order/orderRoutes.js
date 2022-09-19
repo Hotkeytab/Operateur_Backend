@@ -1,7 +1,8 @@
-import express from 'express'
-import { upload } from '../../utils/upload';
-import { checkToken } from '../../utils/verifToken'
-import { getOrders, upsertOrder } from './orderController'
+const express =  require('express');
+const { upload } =  require('../../utils/upload');
+const { checkToken } =  require('../../utils/verifToken');
+const { getOrders, upsertOrder } =  require('./orderController');
+
 const router = express.Router();
 
 

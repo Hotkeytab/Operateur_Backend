@@ -1,11 +1,11 @@
-import Sequelize from 'sequelize'
-import UserModel from '../models/userModel'
-import ProductModel from '../models/productModel'
-import PermissionModel from '../models/PermissionModel'
-import RoleModel from '../models/RoleModel'
-import OrderModel from "../models/Order"
-import OrderDetailModel from "../models/OrderDetail"
-import OrderPictureModel from "../models/OrderPicture"
+const Sequelize =  require('sequelize');
+const UserModel =  require('../models/userModel');
+const ProductModel =  require('../models/productModel');
+const PermissionModel =  require('../models/PermissionModel');
+const RoleModel =  require('../models/RoleModel');
+const OrderModel =  require("../models/Order");
+const OrderDetailModel =  require("../models/OrderDetail");
+const OrderPictureModel =  require("../models/OrderPicture");
 
 
 

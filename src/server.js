@@ -1,13 +1,12 @@
 const express = require('express')
 const cors = require('cors')
 const http = require('http')
-import './config/index'
-import { swaggerSpec } from './config/swaggerConfig'
-import swaggerUi from 'swagger-ui-express'
+const  swaggerSpec  =  require('./config/swaggerConfig');
+const swaggerUi =  require('swagger-ui-express');
 
 require('dotenv').config()
 require('dotenv').config()
-import basicAuth from 'express-basic-auth'
+const basicAuth =  require('express-basic-auth');
 
 
 
