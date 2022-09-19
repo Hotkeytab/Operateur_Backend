@@ -1,7 +1,8 @@
 var jwt = require('jsonwebtoken');
 var bcrypt = require('bcryptjs');
 const { findUser } = require("./authServices");
-import { returnStatus } from "../../utils/ReturnStatus"
+var returnStatus = require('../../Utils/ReturnStatus');
+
 
 /**
  * get user list
