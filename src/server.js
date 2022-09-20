@@ -5,7 +5,6 @@ const  swaggerSpec  =  require('./config/swaggerConfig');
 const swaggerUi =  require('swagger-ui-express');
 
 require('dotenv').config()
-require('dotenv').config()
 const basicAuth =  require('express-basic-auth');
 
 

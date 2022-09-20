@@ -4,8 +4,8 @@ const { createUser, findUsers, findUserByUsername,
     const { transporter } =  require("../../utils/Emails");
     const generator =  require("generate-password");
     const bcrypt =  require("bcryptjs");
-    const { returnStatus } =  require("../../utils/ReturnStatus");
-    const { formatImage } =  require("../../utils/upload");
+    const  returnStatus  =  require("../../utils/ReturnStatus");
+    const  formatImage  =  require("../../utils/upload");
 
 /**
  * @description get user list
