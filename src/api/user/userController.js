@@ -1,11 +1,10 @@
-const { createUser, findUsers, findUserByUsername,
-    findUserById, findUserByRole } =  require("./userServices");
-    const { emailRegex, phoneRegex } =  require("../../utils/RegularExpressions");
-    const { transporter } =  require("../../utils/Emails");
-    const generator =  require("generate-password");
-    const bcrypt =  require("bcryptjs");
-    const  returnStatus  =  require("../../utils/ReturnStatus");
-    const  formatImage  =  require("../../utils/upload");
+import { createUser, findUsers, findUserByUsername, findUserById, findUserByRole } from "./userServices"
+import { emailRegex, phoneRegex } from "../../utils/RegularExpressions"
+import { transporter } from "../../utils/Emails"
+import generator from "generate-password"
+import bcrypt from "bcryptjs"
+import { returnStatus } from "../../utils/ReturnStatus"
+import { formatImage } from "../../utils/upload"
 
 /**
  * @description get user list
