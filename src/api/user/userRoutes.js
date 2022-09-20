@@ -1,6 +1,6 @@
 const express =  require('express');
 const { upload } =  require('../../utils/upload');
-const  checkToken  =  require('../../utils/verifToken');
+const  {checkToken}  =  require('../../utils/verifToken');
 const { getUsers, upsertUser, getUserByUsername, switchStateUser, resetPassword, updatePassword, getUserByRole } =  require('./userController');
 
 const router = express.Router();
