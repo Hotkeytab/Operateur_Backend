@@ -18,10 +18,10 @@ export const sequelize = new Sequelize(
     host: process.env.APP_HOST,
     dialect: process.env.DB_DIALECT,
     pool: {
-      max: 10,
+      max: 50,
       min: 0,
       acquire: 30000,
-      idle: 10000
+      idle: 300000
     }
   }
 )
