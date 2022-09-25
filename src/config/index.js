@@ -16,7 +16,9 @@ export const sequelize = new Sequelize(
   process.env.DB_PASS,
   {
     host: process.env.APP_HOST,
+    port: 3307,
     dialect: process.env.DB_DIALECT,
+    
     pool: {
       max: 50,
       min: 0,
